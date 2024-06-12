@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/de4fd547bf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">JAY <span>VAJA</span></a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Jay Vaja</h1>
+            <h3>And I'm a <span class="multipletext"></span> </h3>
+            <p>Dedicated web developer with a strong foundation in HTML, CSS, and JavaScript. Known for their passion
+                for coding and problem-solving, committed to creating responsive, user-friendly websites and
+                continuously expanding my skills through self-study and projects</p>
+            <div class="social-media">
+                <a href="https://github.com/jay2311v"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/EpicBoy945970"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_jay__77/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jay-vaja-2311v/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./assets/Jay's Resume.pdf" download="" target="_blank" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="./images/home.jpg" alt="home">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/about.jpg" alt="about">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p>Hi! I'm JAY, a passionate and versatile professional specializing in web development, UI/UX design, and
+                WordPress development. My skills in HTML, CSS, JavaScript, and modern frameworks enable me to build
+                dynamic and responsive websites. As a UI/UX designer, I focus on creating intuitive and engaging user
+                experiences, ensuring that every design choice enhances usability and satisfaction. Additionally, my
+                expertise in WordPress development allows me to craft custom themes and plugins, providing tailored
+                solutions for diverse client needs.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-data">
+                <div class="skills-name">
+                    <i class="fa-brands fa-html5 skills-icon"></i>
+                    <span class="skills-name">
+                        HTML5
+                    </span>
+                </div>
+                <div class="skills-percentage">90%</div>
+                <div class="skills-bar skills-html"></div>
+            </div>
+            <div class="skills-data">
+                <div class="skills-name">
+                    <i class="fa-brands fa-css3-alt skills-icon"></i>
+                    <span class="skills-name">
+                        CSS3
+                    </span>
+                </div>
+                <div class="skills-percentage">80%</div>
+                <div class="skills-bar skills-css"></div>
+            </div>
+            <div class="skills-data">
+                <div class="skills-name">
+                    <i class="fa-brands fa-js skills-icon"></i>
+                    <span class="skills-name">
+                        JAVASCRIPT
+                    </span>
+                </div>
+                <div class="skills-percentage">50%</div>
+                <div class="skills-bar skills-javascript"></div>
+            </div>
+            <div class="skills-data">
+                <div class="skills-name">
+                    <i class="fa-brands fa-php skills-icon"></i>
+                    <span class="skills-name">
+                        PHP
+                    </span>
+                </div>
+                <div class="skills-percentage">85%</div>
+                <div class="skills-bar skills-php"></div>
+            </div>
+            <div class="skills-data">
+                <div class="skills-name">
+                    <i class="fa-brands fa-wordpress skills-icon"></i>
+                    <span class="skills-name">
+                        WORDPRESS
+                    </span>
+                </div>
+                <div class="skills-percentage">75%</div>
+                <div class="skills-bar skills-wordpress"></div>
+            </div>
+            <div class="skills-data">
+                <div class="skills-name">
+                    <i class="fa-solid fa-database skills-icon"></i>
+                    <span class="skills-name">
+                        SQL
+                    </span>
+                </div>
+                <div class="skills-percentage">80%</div>
+                <div class="skills-bar skills-sql"></div>
+            </div>
+            <div class="skills-data">
+                <div class="skills-name">
+                    <i class="fa-brands fa-java skills-icon"></i>
+                    <span class="skills-name">
+                        JAVA
+                    </span>
+                </div>
+                <div class="skills-percentage">60%</div>
+                <div class="skills-bar skills-java"></div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h3>UI/UX Design</h3>
+                <p>Crafting intuitive and visually compelling digital experiences through user-centered design,
+                    wireframing, prototyping, and usability testing. Let's elevate your brand with seamless UI/UX
+                    solutions.</p>
+                <button class="btn services_btn" id="services_btn_1">Read More</button>
+            </div>
+            <div class="services_modal_1" id="services_modal_1">
+                <div class="services_modal_content">
+                    <i class="fa-solid fa-xmark services_modal_close_1"></i>
+                    <h2 class="services_modal_title">UI/UX Design</h2>
+                    <ul class="services_modal_list">
+                        <l1 class="services_modal_item">
+                            <i class="fa-solid fa-square sqr3"></i>User interface (UI) design focusing on the aesthetics
+                            and layout of the website.
+                        </l1><br>
+                        <l1 class="services_modal_item">
+                            <i class="fa-solid fa-square sqr3"></i>User experience (UX) design to ensure the site is
+                            easy to navigate and provides a great user
+                            experience.
+                        </l1><br>
+                        <l1 class="services_modal_item">
+                            <i class="fa-solid fa-square sqr3"></i>Prototyping and wireframing to plan the website
+                            structure and flow.
+                        </l1><br>
+                        <l1 class="services_modal_item">
+                            <i class="fa-solid fa-square sqr3"></i>Building custom web applications to meet specific
+                            business requirements
+                        </l1><br>
+                    </ul>
+                </div>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-wordpress"></i>
+                <h3>Wordpress Development</h3>
+                <p>Transform your vision into a stunning WordPress website with customized design and seamless
+                    functionality. Boost your online presence with expert development and tailored solutions.</p>
+                <button class="btn services_btn" id="services_btn_2">Read More</button>
+
+            </div>
+            <div class="services_modal_2" id="services_modal_2">
+                <div class="services_modal_content">
+                    <i class="fa-solid fa-xmark services_modal_close_2"></i>
+                    <h2 class="services_modal_title">Wordpress Development</h2>
+                    <ul class="services_modal_list">
+                        <l1 class="services_modal_item">
+                            <i class="fa-solid fa-square sqr3"></i>Custom WordPress theme development based on client
+                            requirements and design preferences.
+                        </l1><br>
+                        <l1 class="services_modal_item">
+                            <i class="fa-solid fa-square sqr3"></i>Creation of custom page templates and layouts.
+                        </l1><br>
+                        <l1 class="services_modal_item">
+                            <i class="fa-solid fa-square sqr3"></i>Integration of plugins and third-party tools to
+                            enhance functionality.
+                        </l1><br>
+                        <l1 class="services_modal_item">
+                            <i class="fa-solid fa-square sqr3"></i>Customization of existing WordPress themes to match
+                            the client's branding and requirements.
+                        </l1><br>
+                    </ul>
+                </div>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Create dynamic, responsive websites tailored to your business needs. Enhance your online presence
+                    with expert coding and innovative solutions.</p>
+                <button class="btn services_btn" id="services_btn_3">Read More</button>
+            </div>
+
+            <div class="services_modal_3" id="services_modal_3">
+                <div class="services_modal_content">
+                    <i class="fa-solid fa-xmark services_modal_close_3"></i>
+                    <h2 class="services_modal_title">Web Development</h2>
+                    <ul class="services_modal_list">
+                        <l1 class="services_modal_item">
+                            <i class="fa-solid fa-square sqr3"></i>Custom website design tailored to the client's brand
+                            and business needs.
+                        </l1><br>
+                        <l1 class="services_modal_item sqr3">
+                            <i class="fa-solid fa-square sqr3"></i>Responsive design to ensure the site looks great on
+                            all devices (desktops, tablets, mobile).
+                        </l1><br>
+                        <l1 class="services_modal_item sqr3">
+                            <i class="fa-solid fa-square sqr3"></i>Development using modern web technologies
+                        </l1><br>
+                        <l1 class="services_modal_item aqr3">
+                            <i class="fa-solid fa-square sqr3"></i>Building custom web applications to meet specific
+                            business requirements
+                        </l1><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./images/portfolio-4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>
+                        Landing Page
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, cum!</p>
+                    <a href="https://jay2311v.github.io/Responsive/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/portfolio-2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>
+                        Art Gallery
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, cum!</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/portfolio-3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>
+                        Spotify Clone
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, cum!</p>
+                    <a href="https://github.com/jay2311v/spotify_clone.git"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/portfolio-1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>
+                        Web Design
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, cum!</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <ul>
+                        <li><a href="mailto:jayvaja53@gmail.com"><i class="fa-regular fa-envelope"></i></a>Jayvaja53@gmail.com<br></li>
+                        <li><a href="callto:+917226911948"><i class="fa-solid fa-phone"></i></a>+91 7226911948 <br></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i></a>Vadodara, Gujarat<br></li>
+                    </ul>
+
+
+
+
+                </div>
+            </div>
+            <form action="#" class="contact-form" id="contact-form">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" name="user_name" required>
+                    <input type="email" placeholder="Email Address" name="user_email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" name="user_number" required>
+                    <input type="text" placeholder="Email Subject" name="user_email_subject" required>
+                </div>
+                <textarea name="user_message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+                <p class="contact-message" id="contact-message"></p>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Jay | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icontop">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
