@@ -477,11 +477,11 @@ span { color: var(--main-color);}
     flex-direction: column;
     list-style: none;
 }
-.contact-item ul li p, .contact-item il li p:visited{
+.contact-item ul li a, .contact-item ul li a:visited{
     color: var(--text-color);
 }
 
-.contact-item ul li p:hover{
+.contact-item ul li a:hover{
     color: #00EEFF;
 }
 
