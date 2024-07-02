@@ -477,13 +477,6 @@ span { color: var(--main-color);}
     flex-direction: column;
     list-style: none;
 }
-.contact-item .contact-info, .contact-item .contact-info:visited{
-    color: var(--text-color);
-}
-
-.contact-item .contact-info:hover{
-    color: #00EEFF;
-}
 
 
 .contact-item  i {
